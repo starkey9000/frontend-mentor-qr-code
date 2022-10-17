@@ -4,3 +4,54 @@
   --blue-gray: hsl(220, 15%, 55%);
   --blue-dark: hsl(218, 44%, 22%);
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: var(--gray-light);
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  letter-spacing: .3px;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.qr-code-card {
+  background-color: var(--white);
+  width: 250px;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: .7rem;
+  color: var(--blue-dark);
+}
+
+.card-instruction {
+  font-size: .75rem;
+  color: var(--blue-gray);
+}
+
+.qr-code-img {
+  max-width: 100%;
+  display: block;
+  border-radius: .5rem;
+}
+
+.card-data {
+  text-align: center;
+  padding: 1rem .4rem;
+}
