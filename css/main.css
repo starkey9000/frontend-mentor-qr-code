@@ -28,7 +28,7 @@ body {
 
 .qr-code-card {
   background-color: var(--white);
-  width: 250px;
+  width: 375px;
   padding: 1rem;
   border-radius: 10px;
 }
